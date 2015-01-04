@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F541534C1A58C02E00037E2D /* Boston City Flow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F541534B1A58C02E00037E2D /* Boston City Flow.jpg */; };
 		F5B101431A56D8D200539A11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B101421A56D8D200539A11 /* main.m */; };
 		F5B101461A56D8D200539A11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B101451A56D8D200539A11 /* AppDelegate.m */; };
 		F5B101491A56D8D200539A11 /* ImageFIlter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F5B101471A56D8D200539A11 /* ImageFIlter.xcdatamodeld */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F541534B1A58C02E00037E2D /* Boston City Flow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Boston City Flow.jpg"; path = "../../../../../../../Users/hananl/Dropbox/Photos/Sample Album/Boston City Flow.jpg"; sourceTree = "<group>"; };
 		F5B1013D1A56D8D200539A11 /* ImageFIlter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageFIlter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5B101411A56D8D200539A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5B101421A56D8D200539A11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 		F5B101341A56D8D200539A11 = {
 			isa = PBXGroup;
 			children = (
+				F5B1016A1A56D98D00539A11 /* Category */,
 				F5B1013F1A56D8D200539A11 /* ImageFIlter */,
 				F5B1015C1A56D8D200539A11 /* ImageFIlterTests */,
 				F5B1013E1A56D8D200539A11 /* Products */,
@@ -88,6 +91,7 @@
 				F5B1014A1A56D8D200539A11 /* ViewController.h */,
 				F5B1014B1A56D8D200539A11 /* ViewController.m */,
 				F5B1014D1A56D8D200539A11 /* Main.storyboard */,
+				F541534B1A58C02E00037E2D /* Boston City Flow.jpg */,
 				F5B101501A56D8D200539A11 /* Images.xcassets */,
 				F5B101521A56D8D200539A11 /* LaunchScreen.xib */,
 				F5B101471A56D8D200539A11 /* ImageFIlter.xcdatamodeld */,
@@ -120,6 +124,13 @@
 				F5B1015E1A56D8D200539A11 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5B1016A1A56D98D00539A11 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5B1014F1A56D8D200539A11 /* Main.storyboard in Resources */,
+				F541534C1A58C02E00037E2D /* Boston City Flow.jpg in Resources */,
 				F5B101541A56D8D200539A11 /* LaunchScreen.xib in Resources */,
 				F5B101511A56D8D200539A11 /* Images.xcassets in Resources */,
 			);
@@ -416,6 +428,7 @@
 				F5B101651A56D8D200539A11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5B101661A56D8D200539A11 /* Build configuration list for PBXNativeTarget "ImageFIlterTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +437,7 @@
 				F5B101681A56D8D200539A11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
