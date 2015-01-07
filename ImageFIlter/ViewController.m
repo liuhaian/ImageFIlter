@@ -18,7 +18,8 @@
 - (IBAction)addFilter:(id)sender {
     CIContext *context = [CIContext contextWithOptions:nil];               // 1
     //CIImage *image = [CIImage imageWithContentsOfURL:myURL];               // 2
-    CIImage *image = [[CIImage alloc] initWithImage:[UIImage imageNamed:@"Boston City Flow.jpg"]];
+    //CIImage *image = [[CIImage alloc] initWithImage:[UIImage imageNamed:@"Boston City Flow.jpg"]];
+    CIImage *image = [[CIImage alloc] initWithImage:self.targetIMG.image];
     CIFilter *filter = [CIFilter filterWithName:@"CISepiaTone"];           // 3
     [filter setValue:image forKey:kCIInputImageKey];
     [filter setValue:@0.8f forKey:kCIInputIntensityKey];
